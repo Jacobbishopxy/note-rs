@@ -1,0 +1,71 @@
+# Hello Cargo
+
+Cargo 是 Rust 的构建系统和管理依赖的工具。
+
+## 使用 Cargo 创建一个项目
+
+让我们创建一个与"Hello, world!"不一样的项目。
+
+```bash
+cargo new hello_cargo
+cd hello_cargo
+```
+
+第一个命令创建了一个名为`hello_cargo`的文件夹。
+
+进入文件后你会发现 Cargo 生成了两个文件和一个文件夹：`Cargo.toml`文件和包含了`main.rs`文件的`src`文件夹。
+
+另一个文件`.gitignore`。如果使用`cargo new`，则 Git 文件不会被生成。使用`cargo new --vcs=git`覆盖。
+
+打开`Cargo.toml`：
+
+```toml
+[package]
+name = "hello_cargo"
+version = "0.1.0"
+authors = ["Your Name <you@example.com>"]
+edition = "2018"
+
+[dependencies]
+```
+
+该文件为TOML格式（Tom's Obvious, Minimal Language），是Cargo的配置格式。
+
+...
+
+## 编译和运行一个Cargo项目
+
+在`hello_cargo`目录下，输入：
+
+```bash
+cargo build
+```
+
+该命令将创建一个可执行的文件在`target/debug/hello_cargo`下。用以下命令执行该可执行文件：
+
+```bash
+./target/debug/hello_cargo
+```
+
+在第一次运行`cargo build`的时候，Cargo也会创建一个新的文件在项目目录中：`Cargo.lock`。这个文件会持续跟中项目中依赖的版本。改文件不需要被人工修改。
+
+我们也可以使用`cargo run`来编译代码并运行可执行文件。
+
+当Cargo没有检测出文件变化时会直接运行二进制文件，反之将会先编译再运行。
+
+Cargo也提供了一个命令叫`cargo check`。这个命令会检查代码并确保其可以被编译，但是不会输出一个可执行文件。
+
+...
+
+现在我们来总结一下Cargo:
+
+*. `cargo build` 编译项目
+*. `cargo run` 编译并执行
+*. `cargo check` 检查但不编译
+*. Cargo将编译的结果放在`target/debug`目录下
+
+## 构建发布
+
+当你的项目准备好发布了，可以使用`cargo build --release`命令。这个命令将会创建可执行文件在`target/release`文件夹下。虽然构建的时间延长了，但是优化了Rust代码的运行速度。因此有两个文件夹：一个用于开发，另一个用于发布。
+
+...
