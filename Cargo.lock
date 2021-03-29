@@ -3,5 +3,12 @@
 version = 3
 
 [[package]]
-name = "note_rust_lang"
+name = "minigrep"
+version = "0.1.0"
+dependencies = [
+ "trpl",
+]
+
+[[package]]
+name = "trpl"
 version = "0.1.0"

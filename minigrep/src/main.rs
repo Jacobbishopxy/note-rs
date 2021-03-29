@@ -1,7 +1,7 @@
 use std::env;
 use std::process;
 
-use note_rust_lang::demo::minigrep;
+use trpl::minigrep;
 
 fn main() {
     let config = minigrep::Config::new(env::args()).unwrap_or_else(|err| {
