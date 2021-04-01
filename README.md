@@ -26,6 +26,7 @@ A study note of Rust language.
 │       │   ├── data.rs
 │       │   └── func.rs
 │       ├── minigrep.rs
+│       ├── messenger.rs
 │       └── lib.rs
 │
 ├── Cargo.lock
@@ -44,8 +45,9 @@ minigrep[**bin**]
   `CASE_INSENSITIVE=1 cargo run -p minigrep -- the poem.txt`
 
 - test:
-  `cargo test -p minigrep`
+  `cargo test -p trpl -- tests_minigrep`
 
 ### trpl
 
-- minigrep[**lib**] (example from 'The Rust Programming Language' chapter 12)
+- minigrep[**lib**]: example from 'The Rust Programming Language' chapter 12
+- messenger[**lib**]: example from 'The Rust Programming Language' chapter 15.5
