@@ -27,6 +27,7 @@ A study note of Rust language.
 │       │   └── func.rs
 │       ├── minigrep.rs
 │       ├── messenger.rs
+│       ├── oop_encapsulation.rs
 │       └── lib.rs
 │
 ├── Cargo.lock
@@ -51,3 +52,4 @@ minigrep[**bin**]
 
 - minigrep[**lib**]: example from 'The Rust Programming Language' chapter 12
 - messenger[**lib**]: example from 'The Rust Programming Language' chapter 15.5
+- oop_encapsulation[**lib**]: example from 'The Rust Programming Language' chapter 17.1
