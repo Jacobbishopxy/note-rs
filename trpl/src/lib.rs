@@ -1,3 +1,4 @@
+pub mod blog;
 pub mod gui;
 pub mod messenger;
 pub mod minigrep;

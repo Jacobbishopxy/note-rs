@@ -3,19 +3,26 @@
 version = 3
 
 [[package]]
-name = "gui"
-version = "0.1.0"
-dependencies = [
- "trpl",
-]
-
-[[package]]
-name = "minigrep"
-version = "0.1.0"
-dependencies = [
- "trpl",
-]
-
-[[package]]
 name = "trpl"
 version = "0.1.0"
+
+[[package]]
+name = "trpl_blog"
+version = "0.1.0"
+dependencies = [
+ "trpl",
+]
+
+[[package]]
+name = "trpl_gui"
+version = "0.1.0"
+dependencies = [
+ "trpl",
+]
+
+[[package]]
+name = "trpl_minigrep"
+version = "0.1.0"
+dependencies = [
+ "trpl",
+]

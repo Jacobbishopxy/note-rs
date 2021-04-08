@@ -2,6 +2,7 @@
 
 members = [
     "trpl",
-    "minigrep",
-    "gui",
+    "trpl_minigrep",
+    "trpl_gui",
+    "trpl_blog",
 ]

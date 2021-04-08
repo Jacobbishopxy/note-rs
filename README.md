@@ -14,29 +14,37 @@ A study note of Rust language.
 │   ├── Rust By Example
 │   └── The Rust Programming Language
 │
-├── minigrep
-│   ├── Cargo.toml
-│   └── src
-│       └── main.rs
-│
-├── gui
-│   ├── Cargo.toml
-│   └── src
-│       └── main.rs
-│
 ├── trpl
 │   ├── Cargo.toml
 │   └── src
+│       ├── blog
+│       │   └── data.rs
+│       ├── gui
+│       │   └── data.rs
 │       ├── minigrep
 │       │   ├── data.rs
 │       │   └── func.rs
-│       ├── gui
-│       │   └── data.rs
-│       ├── minigrep.rs
+│       ├── blog.rs
 │       ├── gui.rs
 │       ├── messenger.rs
+│       ├── minigrep.rs
 │       ├── oop_encapsulation.rs
 │       └── lib.rs
+│
+├── trpl_blog
+│   ├── Cargo.toml
+│   └── src
+│       └── main.rs
+│
+├── trpl_gui
+│   ├── Cargo.toml
+│   └── src
+│       └── main.rs
+│
+├── trpl_minigrep
+│   ├── Cargo.toml
+│   └── src
+│       └── main.rs
 │
 ├── Cargo.lock
 ├── Cargo.toml
@@ -44,28 +52,28 @@ A study note of Rust language.
 └── target
 ```
 
-### minigrep
-
-minigrep[**bin**]
-
-- run:
-  `cargo run -p minigrep -- the poem.txt`
-  or
-  `CASE_INSENSITIVE=1 cargo run -p minigrep -- the poem.txt`
-
-- test:
-  `cargo test -p trpl -- tests_minigrep`
-
-### gui
-
-gui[**bin**]
-
-- run:
-  `cargo run -p gui`
-
 ### trpl
 
 - minigrep[**lib**]: example from 'The Rust Programming Language' chapter 12
 - messenger[**lib**]: example from 'The Rust Programming Language' chapter 15.5
 - oop_encapsulation[**lib**]: example from 'The Rust Programming Language' chapter 17.1
 - gui[**lib**]: example from 'The Rust Programming Language' chapter 17.2
+
+### trpl_minigrep
+
+minigrep[**bin**]
+
+- run:
+  `cargo run -p trpl_minigrep -- the poem.txt`
+  or
+  `CASE_INSENSITIVE=1 cargo run -p trpl_minigrep -- the poem.txt`
+
+- test:
+  `cargo test -p trpl -- tests_minigrep`
+
+### trpl_gui
+
+gui[**bin**]
+
+- run:
+  `cargo run -p trpl_gui`

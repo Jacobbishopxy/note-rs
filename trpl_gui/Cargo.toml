@@ -1,5 +1,5 @@
 [package]
-name = "gui"
+name = "trpl_gui"
 version = "0.1.0"
 authors = ["Jacob Xie <jacobbishopxy@gmail.com>"]
 edition = "2018"
