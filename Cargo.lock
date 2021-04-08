@@ -3,6 +3,13 @@
 version = 3
 
 [[package]]
+name = "gui"
+version = "0.1.0"
+dependencies = [
+ "trpl",
+]
+
+[[package]]
 name = "minigrep"
 version = "0.1.0"
 dependencies = [

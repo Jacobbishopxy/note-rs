@@ -19,13 +19,21 @@ A study note of Rust language.
 │   └── src
 │       └── main.rs
 │
+├── gui
+│   ├── Cargo.toml
+│   └── src
+│       └── main.rs
+│
 ├── trpl
 │   ├── Cargo.toml
 │   └── src
 │       ├── minigrep
 │       │   ├── data.rs
 │       │   └── func.rs
+│       ├── gui
+│       │   └── data.rs
 │       ├── minigrep.rs
+│       ├── gui.rs
 │       ├── messenger.rs
 │       ├── oop_encapsulation.rs
 │       └── lib.rs
@@ -48,8 +56,16 @@ minigrep[**bin**]
 - test:
   `cargo test -p trpl -- tests_minigrep`
 
+### gui
+
+gui[**bin**]
+
+- run:
+  `cargo run -p gui`
+
 ### trpl
 
 - minigrep[**lib**]: example from 'The Rust Programming Language' chapter 12
 - messenger[**lib**]: example from 'The Rust Programming Language' chapter 15.5
 - oop_encapsulation[**lib**]: example from 'The Rust Programming Language' chapter 17.1
+- gui[**lib**]: example from 'The Rust Programming Language' chapter 17.2
