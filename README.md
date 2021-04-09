@@ -2,10 +2,16 @@
 
 A study note of Rust language.
 
+Official references:
+
 - [The Rust Programming Language](https://doc.rust-lang.org/book)
 - [Rust by Example](https://doc.rust-lang.org/rust-by-example/index.html)
 - [Rustlings](https://github.com/rust-lang/rustlings)
 - [The Cargo Book](https://doc.rust-lang.org/cargo/index.html)
+
+Other useful references:
+
+- [pretzelhammer/rust-blog](https://github.com/pretzelhammer/rust-blog)
 
 ## Project Structure
 
