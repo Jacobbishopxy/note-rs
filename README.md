@@ -59,6 +59,13 @@ A study note of Rust language.
 - oop_encapsulation[**lib**]: example from 'The Rust Programming Language' chapter 17.1
 - gui[**lib**]: example from 'The Rust Programming Language' chapter 17.2
 
+### trpl_blog
+
+blog[**bin**]
+
+- run:
+  `cargo run -p trpl_blog`
+
 ### trpl_minigrep
 
 minigrep[**bin**]
