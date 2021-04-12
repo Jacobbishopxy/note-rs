@@ -12,6 +12,7 @@ Official references:
 Other useful references:
 
 - [pretzelhammer/rust-blog](https://github.com/pretzelhammer/rust-blog)
+- [rust-unofficial/too-many-lists](https://rust-unofficial.github.io/too-many-lists/index.html)
 
 ## Project Structure
 
