@@ -41,19 +41,13 @@ Other useful references:
 │       ├── oop_encapsulation.rs
 │       └── lib.rs
 │
-├── trpl_blog
+├── trpl_example
 │   ├── Cargo.toml
 │   └── src
-│       └── main.rs
-│
-├── trpl_gui
-│   ├── Cargo.toml
-│   └── src
-│       └── main.rs
-│
-├── trpl_minigrep
-│   ├── Cargo.toml
-│   └── src
+|       ├── bin
+|       |   ├── blog.rs
+|       |   ├── gui.rs
+|       |   └── minigrep.rs
 │       └── main.rs
 │
 ├── Cargo.lock
@@ -62,35 +56,25 @@ Other useful references:
 └── target
 ```
 
-### trpl
+### trpl [lib]
 
-- minigrep[**lib**]: example from 'The Rust Programming Language' chapter 12
-- messenger[**lib**]: example from 'The Rust Programming Language' chapter 15.5
-- oop_encapsulation[**lib**]: example from 'The Rust Programming Language' chapter 17.1
-- gui[**lib**]: example from 'The Rust Programming Language' chapter 17.2
+- minigrep: example from 'The Rust Programming Language' chapter 12
+- messenger: example from 'The Rust Programming Language' chapter 15.5
+- oop_encapsulation: example from 'The Rust Programming Language' chapter 17.1
+- gui: example from 'The Rust Programming Language' chapter 17.2
 
-### trpl_blog
+### trpl_example [bin]
 
-blog[**bin**]
+- blog run:
+  `cargo run -p trpl_example --bin blog`
 
-- run:
-  `cargo run -p trpl_blog`
-
-### trpl_minigrep
-
-minigrep[**bin**]
-
-- run:
-  `cargo run -p trpl_minigrep -- the poem.txt`
+- minigrep run:
+  `cargo run -p trpl_example --bin minigrep -- the poem.txt`
   or
-  `CASE_INSENSITIVE=1 cargo run -p trpl_minigrep -- the poem.txt`
+  `CASE_INSENSITIVE=1 cargo run -p trpl_example --bin minigrep -- the poem.txt`
 
-- test:
+- minigrep test:
   `cargo test -p trpl -- tests_minigrep`
 
-### trpl_gui
-
-gui[**bin**]
-
-- run:
-  `cargo run -p trpl_gui`
+- gui run:
+  `cargo run -p trpl_example --bin gui`
