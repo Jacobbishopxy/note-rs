@@ -8,11 +8,14 @@ Official references:
 - [Rust by Example](https://doc.rust-lang.org/rust-by-example/index.html)
 - [Rustlings](https://github.com/rust-lang/rustlings)
 - [The Cargo Book](https://doc.rust-lang.org/cargo/index.html)
+- [The Rustonomicon](https://doc.rust-lang.org/nomicon/): Unsafe Rust Programing
 
 Other useful references:
 
 - [pretzelhammer/rust-blog](https://github.com/pretzelhammer/rust-blog)
 - [rust-unofficial/too-many-lists](https://rust-unofficial.github.io/too-many-lists/index.html)
+- [rust-unofficial/patterns](https://rust-unofficial.github.io/patterns/)
+- [Possible Rust](https://www.possiblerust.com/)
 
 ## Project Structure
 
