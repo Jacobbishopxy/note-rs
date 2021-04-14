@@ -27,10 +27,6 @@ Other useful references:
 ├── trpl
 │   ├── Cargo.toml
 │   └── src
-│       ├── blog
-│       │   └── data.rs
-│       ├── gui
-│       │   └── data.rs
 │       ├── minigrep
 │       │   ├── data.rs
 │       │   └── func.rs
