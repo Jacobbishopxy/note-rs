@@ -1,11 +1,13 @@
 [package]
-name = "trpl_example"
+name = "trpl_derive"
 version = "0.1.0"
 edition = "2018"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
-[dependencies]
+[lib]
+proc-macro = true
 
-trpl = { path = "../trpl" }
-trpl_derive = { path = "../trpl/trpl_derive" }
+[dependencies]
+syn = "1.0"
+quote = "1.0"

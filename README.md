@@ -26,24 +26,30 @@ Other useful references:
 │
 ├── trpl
 │   ├── Cargo.toml
-│   └── src
-│       ├── minigrep
-│       │   ├── data.rs
-│       │   └── func.rs
-│       ├── blog.rs
-│       ├── gui.rs
-│       ├── messenger.rs
-│       ├── minigrep.rs
-│       ├── oop_encapsulation.rs
-│       └── lib.rs
+│   ├── src
+│   │   ├── minigrep
+│   │   │   ├── data.rs
+│   │   │   └── func.rs
+│   │   ├── blog.rs
+│   │   ├── gui.rs
+│   │   ├── hello_macro.rs
+│   │   ├── lib.rs
+│   │   ├── messenger.rs
+│   │   ├── minigrep.rs
+│   │   └── oop_encapsulation.rs
+│   └── trpl_derive
+│       ├── src
+│       │   └── lib.rs
+│       └── Cargo.toml
 │
 ├── trpl_example
 │   ├── Cargo.toml
 │   └── src
-|       ├── bin
-|       |   ├── blog.rs
-|       |   ├── gui.rs
-|       |   └── minigrep.rs
+│       ├── bin
+│       │   ├── blog.rs
+│       │   ├── gui.rs
+│       │   ├── hello_macro.rs
+│       │   └── minigrep.rs
 │       └── main.rs
 │
 ├── Cargo.lock
@@ -54,10 +60,12 @@ Other useful references:
 
 ### trpl [lib]
 
-- minigrep: example from 'The Rust Programming Language' chapter 12
-- messenger: example from 'The Rust Programming Language' chapter 15.5
-- oop_encapsulation: example from 'The Rust Programming Language' chapter 17.1
-- gui: example from 'The Rust Programming Language' chapter 17.2
+- minigrep: book TRPL chapter 12
+- messenger: book TRPL chapter 15.5
+- oop_encapsulation: book TRPL chapter 17.1
+- gui: book TRPL chapter 17.2
+- blog: book TRPL chapter 17.3
+- hello_macro: book TRPL chapter 19.5
 
 ### trpl_example [bin]
 
@@ -74,3 +82,6 @@ Other useful references:
 
 - gui run:
   `cargo run -p trpl_example --bin gui`
+
+- hello_macro run:
+  `cargo run -p trpl_example --bin hello_macro`
