@@ -36,7 +36,8 @@ Other useful references:
 │   │   ├── lib.rs
 │   │   ├── messenger.rs
 │   │   ├── minigrep.rs
-│   │   └── oop_encapsulation.rs
+│   │   ├── oop_encapsulation.rs
+│   │   └── web_server.rs
 │   └── trpl_derive
 │       ├── src
 │       │   └── lib.rs
@@ -49,7 +50,8 @@ Other useful references:
 │       │   ├── blog.rs
 │       │   ├── gui.rs
 │       │   ├── hello_macro.rs
-│       │   └── minigrep.rs
+│       │   ├── minigrep.rs
+│       │   └── web_server.rs
 │       └── main.rs
 │
 ├── Cargo.lock
@@ -66,6 +68,7 @@ Other useful references:
 - gui: book TRPL chapter 17.2
 - blog: book TRPL chapter 17.3
 - hello_macro: book TRPL chapter 19.5
+- web_server: book TRPL chapter 20
 
 ### trpl_example [bin]
 
@@ -85,3 +88,6 @@ Other useful references:
 
 - hello_macro run:
   `cargo run -p trpl_example --bin hello_macro`
+
+- web_server run:
+  `cargo run -p trpl_example --bin web_server`
