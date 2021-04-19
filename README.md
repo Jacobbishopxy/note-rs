@@ -16,6 +16,7 @@ Other useful references:
 - [rust-unofficial/too-many-lists](https://rust-unofficial.github.io/too-many-lists/index.html)
 - [rust-unofficial/patterns](https://rust-unofficial.github.io/patterns/)
 - [Possible Rust](https://www.possiblerust.com/)
+- [Rust Language Cheat Sheet](https://cheats.rs/)
 
 ## Project Structure
 
