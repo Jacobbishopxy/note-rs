@@ -25,6 +25,8 @@ Other useful references:
 │   ├── Rust By Example
 │   └── The Rust Programming Language
 │
+├── leetcode
+│
 ├── trpl
 │   ├── Cargo.toml
 │   ├── src
@@ -60,6 +62,10 @@ Other useful references:
 ├── README.md
 └── target
 ```
+
+### leetcode
+
+- [two_sum](./leetcode/src/bin/1_two_sum.rs)
 
 ### trpl [lib]
 
