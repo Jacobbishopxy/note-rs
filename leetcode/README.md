@@ -16,3 +16,6 @@
 - 22. [generate parenthesis](./src/bin/22_generate_parenthesis.rs)
 - 23. [merge k lists](./src/bin/23_merge_k_lists.rs)
 - 29. [divide](.src/bin/29_divide.rs)
+- 33. [search](.src/bin/33_search.rs)
+- 34. [search range](.src/bin/34_search_range.rs)
+- 36. [is valid sudoku](.src/bin/36_is_valid_sudoku.rs)

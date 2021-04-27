@@ -1,5 +1,5 @@
 fn main() {
-    let nums = vec![1,3];
+    let nums = vec![1, 3];
     let target = 1;
 
     println!("{:?}", search_range(nums, target));
