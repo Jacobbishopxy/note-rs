@@ -65,7 +65,7 @@ Other useful references:
 
 ### leetcode
 
-- [two_sum](./leetcode/src/bin/1_two_sum.rs)
+[README](./leetcode/README.md)
 
 ### trpl [lib]
 
