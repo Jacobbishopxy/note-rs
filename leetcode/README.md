@@ -15,3 +15,4 @@
 - 21. [merge two lists](./src/bin/21_merge_two_lists.rs)
 - 22. [generate parenthesis](./src/bin/22_generate_parenthesis.rs)
 - 23. [merge k lists](./src/bin/23_merge_k_lists.rs)
+- 29. [divide](.src/bin/29_divide.rs)
