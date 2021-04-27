@@ -2,6 +2,10 @@
 
 A study note of Rust language.
 
+[learning path](./learning-path.md)
+
+## References
+
 Official references:
 
 - [The Rust Programming Language](https://doc.rust-lang.org/book)
@@ -22,6 +26,7 @@ Other useful references:
 
 ```null
 ├── doc
+│   ├── Learn Rust With Entirely Too Many Linked Lists
 │   ├── Rust By Example
 │   └── The Rust Programming Language
 │
@@ -69,6 +74,8 @@ Other useful references:
 
 ### trpl [lib]
 
+Examples from 'The Rust Programming Language'.
+
 - minigrep: book TRPL chapter 12
 - messenger: book TRPL chapter 15.5
 - oop_encapsulation: book TRPL chapter 17.1
@@ -98,3 +105,7 @@ Other useful references:
 
 - web_server run:
   `cargo run -p trpl_example --bin web_server`
+
+### tmll
+
+Examples from 'Learn Rust With Entirely Too Many Linked Lists'.
