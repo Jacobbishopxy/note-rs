@@ -19,3 +19,5 @@
 - 33. [search](.src/bin/33_search.rs)
 - 34. [search range](.src/bin/34_search_range.rs)
 - 36. [is valid sudoku](.src/bin/36_is_valid_sudoku.rs)
+- 41. [first missing positive](.src/bin/41_first_missing_positive.rs)
+- 42. [trap](.src/bin/42_trap.rs)
