@@ -1,7 +1,7 @@
 fn main() {
-    let a1 = ListNode::create(vec![1, 4, 5]);
-    let a2 = ListNode::create(vec![1, 3, 4]);
-    let a3 = ListNode::create(vec![2, 6]);
+    let a1 = ListNode::from_vec(vec![1, 4, 5]);
+    let a2 = ListNode::from_vec(vec![1, 3, 4]);
+    let a3 = ListNode::from_vec(vec![2, 6]);
 
     let foo = vec![a1, a2, a3];
 
@@ -19,7 +19,7 @@ impl ListNode {
         ListNode { next: None, val }
     }
 
-    pub fn create(vs: Vec<i32>) -> Option<Box<ListNode>> {
+    pub fn from_vec(vs: Vec<i32>) -> Option<Box<ListNode>> {
         if vs.len() == 0 {
             return None;
         }

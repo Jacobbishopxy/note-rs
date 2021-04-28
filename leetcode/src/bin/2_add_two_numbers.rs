@@ -1,6 +1,6 @@
 fn main() {
-    let l1 = ListNode::create(vec![9, 9, 9, 9, 9, 9, 9]);
-    let l2 = ListNode::create(vec![9, 9, 9, 9]);
+    let l1 = ListNode::from_vec(vec![9, 9, 9, 9, 9, 9, 9]);
+    let l2 = ListNode::from_vec(vec![9, 9, 9, 9]);
 
     println!("{:?}\n", l1);
     println!("{:?}\n", l2);
@@ -18,7 +18,7 @@ impl ListNode {
         ListNode { next: None, val }
     }
 
-    fn create(vs: Vec<i32>) -> Option<Box<Self>> {
+    fn from_vec(vs: Vec<i32>) -> Option<Box<Self>> {
         let mut ln: Option<Box<ListNode>> = None;
 
         for &i in vs.iter().rev() {

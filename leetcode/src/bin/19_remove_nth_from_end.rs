@@ -1,5 +1,5 @@
 fn main() {
-    let foo = ListNode::create(vec![1, 2, 3, 4, 5]);
+    let foo = ListNode::from_vec(vec![1, 2, 3, 4, 5]);
 
     println!("result: {:?}", foo);
     println!("result: {:?}", remove_nth_from_end(foo, 2));
@@ -15,7 +15,7 @@ impl ListNode {
         ListNode { next: None, val }
     }
 
-    fn create(vs: Vec<i32>) -> Option<Box<ListNode>> {
+    fn from_vec(vs: Vec<i32>) -> Option<Box<ListNode>> {
         if vs.len() == 0 {
             return None;
         }

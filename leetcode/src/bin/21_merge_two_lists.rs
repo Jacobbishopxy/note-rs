@@ -1,6 +1,6 @@
 fn main() {
-    let foo = ListNode::create(vec![1, 2, 4]);
-    let bar = ListNode::create(vec![1, 3, 4]);
+    let foo = ListNode::from_vec(vec![1, 2, 4]);
+    let bar = ListNode::from_vec(vec![1, 3, 4]);
 
     println!("result {:?}", merge_two_lists(foo.clone(), bar.clone()));
     println!("result {:?}", Solution2::merge_two_lists(foo, bar));
@@ -17,7 +17,7 @@ impl ListNode {
         ListNode { next: None, val }
     }
 
-    fn create(vs: Vec<i32>) -> Option<Box<ListNode>> {
+    fn from_vec(vs: Vec<i32>) -> Option<Box<ListNode>> {
         if vs.len() == 0 {
             return None;
         }

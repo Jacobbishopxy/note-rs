@@ -11,6 +11,8 @@ pub fn trap(height: Vec<i32>) -> i32 {
     let (mut left_max, mut right_max) = (0, 0);
 
     while left < right {
+        // 如果一端有更高的条形块（例如右端），积水的高度依赖于当前方向的高度（从左到右）。
+        // 当我们发现另一侧（右侧）的条形块高度不是最高的，我们则开始从相反的方向遍历（从右到左）。
         if height[left as usize] < height[right as usize] {
             if height[left as usize] >= left_max {
                 left_max = height[left as usize];

@@ -1,4 +1,4 @@
-use std::{collections::HashSet, mem::swap};
+use std::collections::HashSet;
 
 fn main() {
     let foo = vec![1, 2, 0];
