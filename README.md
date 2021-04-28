@@ -109,3 +109,6 @@ Examples from 'The Rust Programming Language'.
 ### tmll
 
 Examples from 'Learn Rust With Entirely Too Many Linked Lists'.
+
+- first test:
+  `cargo test -p tmll`
