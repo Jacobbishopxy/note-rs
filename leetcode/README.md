@@ -25,3 +25,4 @@
 - 48. [rotate](./src/bin/48_rotate.rs)
 - 49. [group anagrams](./src/bin/49_group_anagrams.rs)
 - 50. [pow](./src/bin/50_pow.rs)
+- 53. [max sub array](./src/bin/53_max_sub_array.rs)

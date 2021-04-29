@@ -32,16 +32,9 @@ impl ListNode {
         let mut res = vec![self.val];
         let mut next = &self.next;
 
-        loop {
-            match next {
-                Some(v) => {
-                    res.push(v.val);
-                    next = &v.next;
-                }
-                None => {
-                    break;
-                }
-            }
+        while let Some(v) = next {
+            res.push(v.val);
+            next = &v.next;
         }
 
         res
