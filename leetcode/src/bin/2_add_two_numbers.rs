@@ -1,3 +1,5 @@
+use leetcode::util::ListNode;
+
 fn main() {
     let l1 = ListNode::from_vec(vec![9, 9, 9, 9, 9, 9, 9]);
     let l2 = ListNode::from_vec(vec![9, 9, 9, 9]);
@@ -5,31 +7,6 @@ fn main() {
     println!("{:?}\n", l1);
     println!("{:?}\n", l2);
     println!("{:?}\n", add_two_numbers(l1, l2));
-}
-
-#[derive(PartialEq, Eq, Clone, Debug)]
-pub struct ListNode {
-    pub val: i32,
-    pub next: Option<Box<ListNode>>,
-}
-
-impl ListNode {
-    fn new(val: i32) -> Self {
-        ListNode { next: None, val }
-    }
-
-    fn from_vec(vs: Vec<i32>) -> Option<Box<Self>> {
-        let mut ln: Option<Box<ListNode>> = None;
-
-        for &i in vs.iter().rev() {
-            match ln {
-                v @ Some(_) => ln = Some(Box::new(ListNode { val: i, next: v })),
-                None => ln = Some(Box::new(ListNode::new(i))),
-            }
-        }
-
-        ln
-    }
 }
 
 pub fn add_two_numbers(

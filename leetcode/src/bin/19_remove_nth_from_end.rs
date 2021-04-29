@@ -1,38 +1,10 @@
+use leetcode::util::ListNode;
+
 fn main() {
     let foo = ListNode::from_vec(vec![1, 2, 3, 4, 5]);
 
     println!("result: {:?}", foo);
     println!("result: {:?}", remove_nth_from_end(foo, 2));
-}
-#[derive(PartialEq, Eq, Clone, Debug)]
-pub struct ListNode {
-    pub val: i32,
-    pub next: Option<Box<ListNode>>,
-}
-
-impl ListNode {
-    fn new(val: i32) -> Self {
-        ListNode { next: None, val }
-    }
-
-    fn from_vec(vs: Vec<i32>) -> Option<Box<ListNode>> {
-        if vs.len() == 0 {
-            return None;
-        }
-
-        let mut res: Option<Box<ListNode>> = None;
-        let mut next = &mut res;
-
-        for &v in vs.iter() {
-            *next = Some(Box::new(ListNode::new(v)));
-
-            if let Some(b) = next {
-                next = &mut b.next;
-            }
-        }
-
-        res
-    }
 }
 
 fn remove(head: Option<Box<ListNode>>, n: i32) -> (Option<Box<ListNode>>, i32) {

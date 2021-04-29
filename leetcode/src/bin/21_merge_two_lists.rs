@@ -1,40 +1,11 @@
+use leetcode::util::ListNode;
+
 fn main() {
     let foo = ListNode::from_vec(vec![1, 2, 4]);
     let bar = ListNode::from_vec(vec![1, 3, 4]);
 
     println!("result {:?}", merge_two_lists(foo.clone(), bar.clone()));
     println!("result {:?}", Solution2::merge_two_lists(foo, bar));
-}
-
-#[derive(PartialEq, Eq, Clone, Debug)]
-pub struct ListNode {
-    pub val: i32,
-    pub next: Option<Box<ListNode>>,
-}
-
-impl ListNode {
-    fn new(val: i32) -> Self {
-        ListNode { next: None, val }
-    }
-
-    fn from_vec(vs: Vec<i32>) -> Option<Box<ListNode>> {
-        if vs.len() == 0 {
-            return None;
-        }
-
-        let mut res: Option<Box<ListNode>> = None;
-        let mut next = &mut res;
-
-        for &v in vs.iter() {
-            *next = Some(Box::new(ListNode::new(v)));
-
-            if let Some(b) = next {
-                next = &mut b.next;
-            }
-        }
-
-        res
-    }
 }
 
 pub fn merge_two_lists(

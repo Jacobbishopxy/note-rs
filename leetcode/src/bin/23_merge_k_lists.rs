@@ -1,3 +1,5 @@
+use leetcode::util::ListNode;
+
 fn main() {
     let a1 = ListNode::from_vec(vec![1, 4, 5]);
     let a2 = ListNode::from_vec(vec![1, 3, 4]);
@@ -6,56 +8,6 @@ fn main() {
     let foo = vec![a1, a2, a3];
 
     println!("result: {:?}", merge_k_lists(foo));
-}
-
-#[derive(PartialEq, Eq, Clone, Debug)]
-pub struct ListNode {
-    pub val: i32,
-    pub next: Option<Box<ListNode>>,
-}
-
-impl ListNode {
-    pub fn new(val: i32) -> Self {
-        ListNode { next: None, val }
-    }
-
-    pub fn from_vec(vs: Vec<i32>) -> Option<Box<ListNode>> {
-        if vs.len() == 0 {
-            return None;
-        }
-
-        let mut res: Option<Box<ListNode>> = None;
-        let mut next = &mut res;
-
-        for &v in vs.iter() {
-            *next = Some(Box::new(ListNode::new(v)));
-
-            if let Some(b) = next {
-                next = &mut b.next;
-            }
-        }
-
-        res
-    }
-
-    pub fn to_vec(&self) -> Vec<i32> {
-        let mut res = vec![self.val];
-        let mut next = &self.next;
-
-        loop {
-            match next {
-                Some(v) => {
-                    res.push(v.val);
-                    next = &v.next;
-                }
-                None => {
-                    break;
-                }
-            }
-        }
-
-        res
-    }
 }
 
 pub fn merge_k_lists(mut lists: Vec<Option<Box<ListNode>>>) -> Option<Box<ListNode>> {
