@@ -1,3 +1,6 @@
+//! first.rs
+//! TMLL chapter 1
+
 use std::mem;
 
 pub struct List {
@@ -49,7 +52,7 @@ impl Drop for List {
 }
 
 #[cfg(test)]
-mod test {
+mod test_first {
 
     use super::List;
 

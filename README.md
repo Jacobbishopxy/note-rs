@@ -111,4 +111,7 @@ Examples from 'The Rust Programming Language'.
 Examples from 'Learn Rust With Entirely Too Many Linked Lists'.
 
 - first test:
-  `cargo test -p tmll`
+  `cargo test -p tmll -- test_first`
+
+- second test:
+  `cargo test -p tmll -- test_second`
