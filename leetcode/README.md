@@ -24,3 +24,4 @@
 - 46. [permute](./src/bin/46_permute.rs)
 - 48. [rotate](./src/bin/48_rotate.rs)
 - 49. [group anagrams](./src/bin/49_group_anagrams.rs)
+- 50. [pow](./src/bin/50_pow.rs)
