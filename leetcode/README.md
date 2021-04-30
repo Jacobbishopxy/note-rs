@@ -27,3 +27,5 @@
 - 50. [pow](./src/bin/50_pow.rs)
 - 53. [max sub array](./src/bin/53_max_sub_array.rs)
 - 54. [spiral order](./src/bin/54_spiral_order.rs)
+- 55. [can jump](./src/bin/55_can_jump.rs)
+- 56. [merge](./src/bin/56_merge.rs)

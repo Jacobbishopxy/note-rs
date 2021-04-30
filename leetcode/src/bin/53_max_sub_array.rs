@@ -2,7 +2,7 @@ use std::cmp::max;
 
 fn main() {
     let foo = vec![-2, 1, -3, 4, -1, 2, 1, -5, 4];
-    let bar = vec![-2, 1, -3, 4, -1, 2, 1, -5, 4];
+    let bar = foo.clone();
 
     // `max_sub_array` consumes less memory
     println!("{:?}", max_sub_array(foo));
