@@ -115,3 +115,6 @@ Examples from 'Learn Rust With Entirely Too Many Linked Lists'.
 
 - second test:
   `cargo test -p tmll -- test_second`
+
+- third test:
+  `cargo test -p tmll -- test_third`
