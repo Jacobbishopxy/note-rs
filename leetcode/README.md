@@ -29,3 +29,4 @@
 - 54. [spiral order](./src/bin/54_spiral_order.rs)
 - 55. [can jump](./src/bin/55_can_jump.rs)
 - 56. [merge](./src/bin/56_merge.rs)
+- 57. [insert](./src/bin/57_insert.rs)
