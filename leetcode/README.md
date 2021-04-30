@@ -26,3 +26,4 @@
 - 49. [group anagrams](./src/bin/49_group_anagrams.rs)
 - 50. [pow](./src/bin/50_pow.rs)
 - 53. [max sub array](./src/bin/53_max_sub_array.rs)
+- 54. [spiral order](./src/bin/54_spiral_order.rs)
