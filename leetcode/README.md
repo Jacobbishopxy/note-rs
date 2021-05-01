@@ -32,3 +32,4 @@
 - 57. [insert](./src/bin/57_insert.rs)
 - 62. [unique paths](./src/bin/62_unique_paths.rs)
 - 73. [set zeroes](./src/bin/73_set_zeroes.rs)
+- 75. [sort colors](./src/bin/75_sort_colors.rs)
