@@ -30,3 +30,4 @@
 - 55. [can jump](./src/bin/55_can_jump.rs)
 - 56. [merge](./src/bin/56_merge.rs)
 - 57. [insert](./src/bin/57_insert.rs)
+- 58. [unique paths](./src/bin/58_unique_paths.rs)

@@ -32,6 +32,8 @@ Other useful references:
 │
 ├── leetcode
 │
+├── resources
+│
 ├── trpl
 │   ├── Cargo.toml
 │   ├── src
@@ -72,6 +74,9 @@ Other useful references:
 
 [README](./leetcode/README.md)
 
+### resources
+
+- [rust.json](./resources/rust.json): VsCode Rust snippets
 ### trpl [lib]
 
 Examples from 'The Rust Programming Language'.
