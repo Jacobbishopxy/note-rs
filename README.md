@@ -28,6 +28,7 @@ Other useful references:
 ├── doc
 │   ├── Learn Rust With Entirely Too Many Linked Lists
 │   ├── Rust By Example
+│   ├── Rust Design Patterns
 │   └── The Rust Programming Language
 │
 ├── leetcode
@@ -70,6 +71,15 @@ Other useful references:
 └── target
 ```
 
+### doc
+
+Study notes/Book translation in Chinese.
+
+- [Learn Rust With Entirely Too Many Linked Lists](./doc/Learn%20Rust%20With%20Entirely%20Too%20Many%20Linked%20Lists)
+- [Rust By Example](./doc/Rust%20By%20Example)
+- [Rust Design Patterns](./doc/Rust%20Design%20Patterns)
+- [The Rust Programming Language](./doc/The%20Rust%20Programming%20Language)
+
 ### leetcode
 
 [README](./leetcode/README.md)
@@ -77,6 +87,7 @@ Other useful references:
 ### resources
 
 - [rust.json](./resources/rust.json): VsCode Rust snippets
+
 ### trpl [lib]
 
 Examples from 'The Rust Programming Language'.

@@ -4,3 +4,4 @@
 1. Meanwhile, take 'Rust By Example' as example extension
 1. After that, start reading 'Learn Rust With Entirely Too Many Linked Lists'
 1. Meanwhile, start challenging LeetCode
+1. For real world project, start 'Rust Design Patterns'
