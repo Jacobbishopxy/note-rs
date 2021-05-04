@@ -35,3 +35,4 @@
 - 75. [sort colors](./src/bin/75_sort_colors.rs)
 - 76. [min window](./src/bin/76_min_window.rs)
 - 78. [subsets](./src/bin/78_subsets.rs)
+- 79. [exist](./src/bin/79_exist.rs)
