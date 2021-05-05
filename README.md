@@ -29,7 +29,8 @@ Other useful references:
 │   ├── Learn Rust With Entirely Too Many Linked Lists
 │   ├── Rust By Example
 │   ├── Rust Design Patterns
-│   └── The Rust Programming Language
+│   ├── The Rust Programming Language
+│   └── The Rustonomicon
 │
 ├── leetcode
 │
@@ -79,6 +80,7 @@ Study notes/Book translation in Chinese.
 - [Rust By Example](./doc/Rust%20By%20Example)
 - [Rust Design Patterns](./doc/Rust%20Design%20Patterns)
 - [The Rust Programming Language](./doc/The%20Rust%20Programming%20Language)
+- [The Rustonomicon](./doc/The%20Rustonomicon)
 
 ### leetcode
 
