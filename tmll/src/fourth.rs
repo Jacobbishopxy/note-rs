@@ -81,8 +81,8 @@ impl<T> List<T> {
         let new_tail = Node::new(elem);
         match self.tail.take() {
             Some(old_tail) => {
-                old_tail.borrow_mut().prev = Some(new_tail.clone());
-                new_tail.borrow_mut().next = Some(old_tail);
+                old_tail.borrow_mut().next = Some(new_tail.clone());
+                new_tail.borrow_mut().prev = Some(old_tail);
                 self.tail = Some(new_tail);
             }
             None => {
@@ -94,9 +94,9 @@ impl<T> List<T> {
 
     pub fn pop_back(&mut self) -> Option<T> {
         self.tail.take().map(|old_tail| {
-            match old_tail.borrow_mut().next.take() {
+            match old_tail.borrow_mut().prev.take() {
                 Some(new_tail) => {
-                    new_tail.borrow_mut().prev.take();
+                    new_tail.borrow_mut().next.take();
                     self.tail = Some(new_tail);
                 }
                 None => {
@@ -178,6 +178,8 @@ mod test_fourth {
         // Check exhaustion
         assert_eq!(list.pop_front(), Some(1));
         assert_eq!(list.pop_front(), None);
+
+        // ---- back -----
 
         // Check empty list behaves right
         assert_eq!(list.pop_back(), None);
