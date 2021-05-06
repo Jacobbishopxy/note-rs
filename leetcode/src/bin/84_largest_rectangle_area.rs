@@ -9,11 +9,13 @@ fn main() {
 
 pub fn largest_rectangle_area(heights: Vec<i32>) -> i32 {
     let n = heights.len();
+    // 用于记录哨兵位置
     let (mut left, mut right) = (vec![0_i32; n], vec![n as i32; n]);
+    // 单调栈
     let mut mono_stack: Vec<usize> = vec![];
 
     for i in 0..n {
-        while (!mono_stack.is_empty())
+        while !mono_stack.is_empty()
             && heights[mono_stack.last().unwrap().clone() as usize] >= heights[i]
         {
             right[mono_stack.last().unwrap().clone() as usize] = i as i32;

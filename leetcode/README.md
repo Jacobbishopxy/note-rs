@@ -36,4 +36,5 @@
 - 76. [min window](./src/bin/76_min_window.rs)
 - 78. [subsets](./src/bin/78_subsets.rs)
 - 79. [exist](./src/bin/79_exist.rs)
-- 84. [largest rectangle area](./src/bin/largest_rectangle_area.rs)
+- 84. [largest rectangle area](./src/bin/84_largest_rectangle_area.rs)
+- 91. [num decodings](./src/bin/91_num_decodings.rs)
