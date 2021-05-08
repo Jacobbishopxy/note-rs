@@ -13,6 +13,7 @@ Official references:
 - [Rustlings](https://github.com/rust-lang/rustlings)
 - [The Cargo Book](https://doc.rust-lang.org/cargo/index.html)
 - [The Rustonomicon](https://doc.rust-lang.org/nomicon/): Unsafe Rust Programing
+- [Async Book](https://github.com/rust-lang/async-book)
 
 Other useful references:
 
