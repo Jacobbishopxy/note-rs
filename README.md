@@ -2,7 +2,8 @@
 
 A study note of Rust language.
 
-[learning path](./learning-path.md)
+1. [learning path](./learning-path.md)
+1. [demo projects](https://github.com/Jacobbishopxy/demo)
 
 ## References
 
@@ -22,11 +23,13 @@ Other useful references:
 - [rust-unofficial/patterns](https://rust-unofficial.github.io/patterns/)
 - [Possible Rust](https://www.possiblerust.com/)
 - [Rust Language Cheat Sheet](https://cheats.rs/)
+- [rust-algorithms](https://github.com/EbTech/rust-algorithms): Common data structures and algorithms in Rust
 
 ## Project Structure
 
 ```null
 ├── doc
+│   ├── Asynchronous Programming in Rust
 │   ├── Learn Rust With Entirely Too Many Linked Lists
 │   ├── Rust By Example
 │   ├── Rust Design Patterns
@@ -77,6 +80,7 @@ Other useful references:
 
 Study notes/Book translation in Chinese.
 
+- [Asynchronous Programming in Rust](./doc/Asynchronous%20Programming%20in%20Rust)
 - [Learn Rust With Entirely Too Many Linked Lists](./doc/Learn%20Rust%20With%20Entirely%20Too%20Many%20Linked%20Lists)
 - [Rust By Example](./doc/Rust%20By%20Example)
 - [Rust Design Patterns](./doc/Rust%20Design%20Patterns)
@@ -138,5 +142,5 @@ Examples from 'Learn Rust With Entirely Too Many Linked Lists'.
 - third test:
   `cargo test -p tmll -- test_third`
 
-- third test:
+- fourth test:
   `cargo test -p tmll -- test_fourth`
