@@ -39,3 +39,4 @@
 - 84. [largest rectangle area](./src/bin/84_largest_rectangle_area.rs)
 - 91. [num decodings](./src/bin/91_num_decodings.rs)
 - 94. [inorder traversal](./src/bin/94_inorder_traversal.rs)
+- 98. [is valid bst](./src/bin/98_is_valid_bst.rs)
