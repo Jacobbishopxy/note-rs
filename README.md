@@ -11,6 +11,7 @@ Official references:
 
 - [The Rust Programming Language](https://doc.rust-lang.org/book)
 - [Rust by Example](https://doc.rust-lang.org/rust-by-example/index.html)
+- [The Rust Reference](https://doc.rust-lang.org/reference/)
 - [Rustlings](https://github.com/rust-lang/rustlings)
 - [The Cargo Book](https://doc.rust-lang.org/cargo/index.html)
 - [The Rustonomicon](https://doc.rust-lang.org/nomicon/): Unsafe Rust Programing
