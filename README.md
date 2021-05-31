@@ -14,6 +14,7 @@ Official references:
 - [The Rust Reference](https://doc.rust-lang.org/reference/)
 - [Rustlings](https://github.com/rust-lang/rustlings)
 - [The Cargo Book](https://doc.rust-lang.org/cargo/index.html)
+- [Edition Guide](https://github.com/rust-lang/edition-guide)
 - [The Rustonomicon](https://doc.rust-lang.org/nomicon/): Unsafe Rust Programing
 - [Async Book](https://github.com/rust-lang/async-book)
 
@@ -25,6 +26,7 @@ Other useful references:
 - [Possible Rust](https://www.possiblerust.com/)
 - [Rust Language Cheat Sheet](https://cheats.rs/)
 - [rust-algorithms](https://github.com/EbTech/rust-algorithms): Common data structures and algorithms in Rust
+- [The Little Book of Rust Macros](https://veykril.github.io/tlborm/)
 
 ## Project Structure
 
