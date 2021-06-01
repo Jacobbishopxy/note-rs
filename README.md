@@ -17,6 +17,7 @@ Official references:
 - [Edition Guide](https://github.com/rust-lang/edition-guide)
 - [The Rustonomicon](https://doc.rust-lang.org/nomicon/): Unsafe Rust Programing
 - [Async Book](https://github.com/rust-lang/async-book)
+- [The Unstable Book](https://doc.rust-lang.org/stable/unstable-book/the-unstable-book.html)
 
 Other useful references:
 
