@@ -28,6 +28,8 @@ Other useful references:
 - [Rust Language Cheat Sheet](https://cheats.rs/)
 - [rust-algorithms](https://github.com/EbTech/rust-algorithms): Common data structures and algorithms in Rust
 - [The Little Book of Rust Macros](https://veykril.github.io/tlborm/)
+- [The Rust Performance Book](https://github.com/nnethercote/perf-book)
+- [The Rust Machine Learning Book](https://github.com/rust-ml/book)
 
 ## Project Structure
 
