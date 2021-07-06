@@ -46,38 +46,50 @@ Other useful references:
 │
 ├── resources
 │
-├── trpl
-│   ├── Cargo.toml
-│   ├── src
-│   │   ├── minigrep
-│   │   │   ├── data.rs
-│   │   │   └── func.rs
-│   │   ├── blog.rs
-│   │   ├── gui.rs
-│   │   ├── hello_macro.rs
-│   │   ├── lib.rs
-│   │   ├── messenger.rs
-│   │   ├── minigrep.rs
-│   │   ├── oop_encapsulation.rs
-│   │   └── web_server.rs
-│   └── trpl_derive
-│       ├── src
-│       │   └── lib.rs
-│       └── Cargo.toml
+├── sample_code
+│   ├── tmll
+│   │   ├── Cargo.toml
+│   │   └── src
+│   │       ├── first.rs
+│   │       ├── second.rs
+│   │       ├── third.rs
+│   │       ├── fourth.rs
+│   │       ├── fifth.rs
+│   │       └── lib.rs
+│   │
+│   ├── trpl
+│   │   ├── Cargo.toml
+│   │   ├── src
+│   │   │   ├── minigrep
+│   │   │   │   ├── data.rs
+│   │   │   │   └── func.rs
+│   │   │   ├── blog.rs
+│   │   │   ├── gui.rs
+│   │   │   ├── hello_macro.rs
+│   │   │   ├── lib.rs
+│   │   │   ├── messenger.rs
+│   │   │   ├── minigrep.rs
+│   │   │   ├── oop_encapsulation.rs
+│   │   │   └── web_server.rs
+│   │   └── trpl_derive
+│   │       ├── Cargo.toml
+│   │       └── src
+│   │           └── lib.rs
+│   │
+│   ├── trpl_example
+│   │   ├── Cargo.toml
+│   │   └── src
+│   │       ├── main.rs
+│   │       └── bin
+│   │           ├── blog.rs
+│   │           ├── gui.rs
+│   │           ├── hello_macro.rs
+│   │           ├── minigrep.rs
+│   │           └── web_server.rs
+│   │
+│   ├── Cargo.lock
+│   └── Cargo.toml
 │
-├── trpl_example
-│   ├── Cargo.toml
-│   └── src
-│       ├── bin
-│       │   ├── blog.rs
-│       │   ├── gui.rs
-│       │   ├── hello_macro.rs
-│       │   ├── minigrep.rs
-│       │   └── web_server.rs
-│       └── main.rs
-│
-├── Cargo.lock
-├── Cargo.toml
 ├── README.md
 └── target
 ```

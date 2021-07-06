@@ -1,0 +1,7 @@
+{
+  "rust-analyzer.linkedProjects": [
+    "sample_code/Cargo.toml",
+    "sample_code/tmll/Cargo.toml",
+    "leetcode/Cargo.toml"
+  ]
+}

@@ -1,8 +1,6 @@
 [workspace]
-
 members = [
     "trpl",
     "trpl_example",
-    "leetcode",
     "tmll",
 ]
