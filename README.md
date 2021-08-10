@@ -40,6 +40,7 @@ Other useful references:
 │   ├── Rust By Example
 │   ├── Rust Design Patterns
 │   ├── The Rust Programming Language
+│   ├── The Rust Reference
 │   └── The Rustonomicon
 │
 ├── leetcode
@@ -113,7 +114,9 @@ Study notes/Book translation in Chinese.
 
 - [rust.json](./resources/rust.json): VsCode Rust snippets
 
-### trpl [lib]
+### sample_code
+
+#### trpl [lib]
 
 Examples from 'The Rust Programming Language'.
 
@@ -125,7 +128,7 @@ Examples from 'The Rust Programming Language'.
 - hello_macro: book TRPL chapter 19.5
 - web_server: book TRPL chapter 20
 
-### trpl_example [bin]
+#### trpl_example [bin]
 
 - blog run:
   `cargo run -p trpl_example --bin blog`
@@ -147,7 +150,7 @@ Examples from 'The Rust Programming Language'.
 - web_server run:
   `cargo run -p trpl_example --bin web_server`
 
-### tmll
+#### tmll
 
 Examples from 'Learn Rust With Entirely Too Many Linked Lists'.
 
