@@ -2,8 +2,8 @@
 
 A study note of Rust language.
 
-1. [learning path](./learning-path.md)
-1. [demo projects](https://github.com/Jacobbishopxy/demo)
+1. [my learning path](./learning-path.md)
+1. [my demo projects](https://github.com/Jacobbishopxy/demo-rust)
 
 ## References
 
@@ -30,6 +30,7 @@ Other useful references:
 - [The Little Book of Rust Macros](https://veykril.github.io/tlborm/)
 - [The Rust Performance Book](https://github.com/nnethercote/perf-book)
 - [The Rust Machine Learning Book](https://github.com/rust-ml/book)
+- [The Little Book of Rust Macros](https://danielkeep.github.io/tlborm/book/index.html)
 
 ## Project Structure
 
