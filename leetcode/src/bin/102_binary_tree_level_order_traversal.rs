@@ -26,7 +26,7 @@ fn level_order(root: Option<Rc<RefCell<TreeNode>>>) -> Vec<Vec<i32>> {
 
     level_order_traverse(root, 0, &mut res);
 
-    return res;
+    res
 }
 
 fn level_order_traverse(
