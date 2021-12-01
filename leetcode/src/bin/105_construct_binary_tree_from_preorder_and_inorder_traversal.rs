@@ -10,16 +10,16 @@ fn main() {
     println!("{:?}", build_tree(po, io));
 }
 
-fn build_tree(mut preorder: Vec<i32>, mut inorder: Vec<i32>) -> Option<Rc<RefCell<TreeNode>>> {
+fn build_tree(preorder: Vec<i32>, inorder: Vec<i32>) -> Option<Rc<RefCell<TreeNode>>> {
     let len = inorder.len() as i32 - 1;
-    return build(&mut preorder, 0, len, &mut inorder, 0, len);
+    return build(&preorder, 0, len, &inorder, 0, len);
 }
 
 fn build(
-    preorder: &mut Vec<i32>,
+    preorder: &Vec<i32>,
     pl: i32,
     pr: i32,
-    inorder: &mut Vec<i32>,
+    inorder: &Vec<i32>,
     il: i32,
     ir: i32,
 ) -> Option<Rc<RefCell<TreeNode>>> {
