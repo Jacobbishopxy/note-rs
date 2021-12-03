@@ -2,7 +2,6 @@
 	"rust-analyzer.linkedProjects": [
 		"sample_code/tmll/Cargo.toml",
 		"sample_code/trpl/Cargo.toml",
-		"sample_code/trpl_example/Cargo.toml",
 		"leetcode/Cargo.toml"
 	]
 }

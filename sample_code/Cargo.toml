@@ -1,6 +1,0 @@
-[workspace]
-members = [
-    "trpl",
-    "trpl_example",
-    "tmll",
-]

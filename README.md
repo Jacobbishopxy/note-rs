@@ -61,6 +61,12 @@ Other useful references:
 │   │
 │   ├── trpl
 │   │   ├── Cargo.toml
+│   │   ├── bin
+│   │   │   ├── blog.rs
+│   │   │   ├── gui.rs
+│   │   │   ├── hello_macro.rs
+│   │   │   ├── minigrep.rs
+│   │   │   └── web_server.rs
 │   │   ├── src
 │   │   │   ├── minigrep
 │   │   │   │   ├── data.rs
@@ -77,17 +83,6 @@ Other useful references:
 │   │       ├── Cargo.toml
 │   │       └── src
 │   │           └── lib.rs
-│   │
-│   ├── trpl_example
-│   │   ├── Cargo.toml
-│   │   └── src
-│   │       ├── main.rs
-│   │       └── bin
-│   │           ├── blog.rs
-│   │           ├── gui.rs
-│   │           ├── hello_macro.rs
-│   │           ├── minigrep.rs
-│   │           └── web_server.rs
 │   │
 │   ├── Cargo.lock
 │   └── Cargo.toml
@@ -129,7 +124,7 @@ Examples from 'The Rust Programming Language'.
 - hello_macro: book TRPL chapter 19.5
 - web_server: book TRPL chapter 20
 
-#### trpl_example [bin]
+#### trpl [bin]
 
 - blog run:
   `cargo run -p trpl_example --bin blog`
