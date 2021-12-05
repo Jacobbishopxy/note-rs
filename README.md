@@ -44,8 +44,6 @@ Other useful references:
 │   ├── The Rust Reference
 │   └── The Rustonomicon
 │
-├── leetcode
-│
 ├── resources
 │
 ├── sample_code
