@@ -3,5 +3,8 @@ name = "trpl"
 version = "0.1.0"
 edition = "2021"
 
+[workspace]
+members = [".", "trpl_derive"]
+
 [dependencies]
-trpl_derive = { path = "trpl_derive" }
+trpl_derive = { path = "./trpl_derive" }

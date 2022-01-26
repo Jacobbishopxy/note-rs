@@ -4,6 +4,7 @@
 use std::cell::{Ref, RefCell, RefMut};
 use std::rc::Rc;
 
+#[derive(Default)]
 pub struct List<T> {
     head: Link<T>,
     tail: Link<T>,
@@ -20,7 +21,7 @@ struct Node<T> {
 impl<T> Node<T> {
     fn new(elem: T) -> Rc<RefCell<Self>> {
         Rc::new(RefCell::new(Node {
-            elem: elem,
+            elem,
             prev: None,
             next: None,
         }))
@@ -129,7 +130,9 @@ impl<T> Drop for List<T> {
 pub struct IntoIter<T>(List<T>);
 
 impl<T> List<T> {
-    pub fn into_iter(self) -> IntoIter<T> {
+    // since method name `into_iter` can be confused for the standard trait,
+    // we change it to `into_iter_`
+    pub fn into_iter_(self) -> IntoIter<T> {
         IntoIter(self)
     }
 }
@@ -231,7 +234,7 @@ mod test_fourth {
         list.push_front(2);
         list.push_front(3);
 
-        let mut iter = list.into_iter();
+        let mut iter = list.into_iter_();
         assert_eq!(iter.next(), Some(3));
         assert_eq!(iter.next_back(), Some(1));
         assert_eq!(iter.next(), Some(2));

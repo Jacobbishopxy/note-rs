@@ -2,9 +2,19 @@
 //! TMLL chapter 5
 
 use std::ptr;
+
 pub struct List<T> {
     head: Link<T>,
     tail: *mut Node<T>, // DANGER DANGER
+}
+
+impl<T> Default for List<T> {
+    fn default() -> Self {
+        List {
+            head: None,
+            tail: ptr::null_mut(),
+        }
+    }
 }
 
 type Link<T> = Option<Box<Node<T>>>;
@@ -73,7 +83,9 @@ impl<T> List<T> {
         self.head.as_mut().map(|node| &mut node.elem)
     }
 
-    pub fn into_iter(self) -> IntoIter<T> {
+    // since method name `into_iter` can be confused for the standard trait,
+    // we change it to `into_iter_`
+    pub fn into_iter_(self) -> IntoIter<T> {
         IntoIter(self)
     }
 
@@ -177,7 +189,7 @@ mod test_fifth {
         list.push(2);
         list.push(3);
 
-        let mut iter = list.into_iter();
+        let mut iter = list.into_iter_();
         assert_eq!(iter.next(), Some(1));
         assert_eq!(iter.next(), Some(2));
         assert_eq!(iter.next(), Some(3));

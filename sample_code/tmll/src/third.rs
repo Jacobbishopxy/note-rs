@@ -3,6 +3,7 @@
 
 use std::rc::Rc;
 
+#[derive(Default)]
 pub struct List<T> {
     head: Link<T>,
 }

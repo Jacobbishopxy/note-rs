@@ -1,6 +1,7 @@
 //! second.rs
 //! TMLL chapter 2
 
+#[derive(Default)]
 pub struct List<T> {
     head: Link<T>,
 }
@@ -19,7 +20,7 @@ impl<T> List<T> {
 
     pub fn push(&mut self, elem: T) {
         let new_node = Box::new(Node {
-            elem: elem,
+            elem,
             next: self.head.take(),
         });
 
@@ -54,7 +55,9 @@ impl<T> Drop for List<T> {
 pub struct IntoIter<T>(List<T>);
 
 impl<T> List<T> {
-    pub fn into_iter(self) -> IntoIter<T> {
+    // since method name `into_iter` can be confused for the standard trait,
+    // we change it to `into_iter_`
+    pub fn into_iter_(self) -> IntoIter<T> {
         IntoIter(self)
     }
 }
@@ -158,9 +161,9 @@ mod test_second {
         assert_eq!(list.peek(), Some(&3));
         assert_eq!(list.peek_mut(), Some(&mut 3));
 
-        list.peek_mut().map(|value| {
+        if let Some(value) = list.peek_mut() {
             *value = 42;
-        });
+        }
         assert_eq!(list.peek(), Some(&42));
         assert_eq!(list.pop(), Some(42));
     }
@@ -172,7 +175,7 @@ mod test_second {
         list.push(2);
         list.push(3);
 
-        let mut iter = list.into_iter();
+        let mut iter = list.into_iter_();
         assert_eq!(iter.next(), Some(3));
         assert_eq!(iter.next(), Some(2));
         assert_eq!(iter.next(), Some(1));

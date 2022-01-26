@@ -14,7 +14,7 @@ use trpl::blog::Post;
 // }
 
 fn main() {
-    let mut post = Post::new();
+    let mut post = Post::new_draft();
 
     post.add_text("I ate a salad for lunch today");
 

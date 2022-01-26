@@ -94,7 +94,7 @@ pub struct PendingReviewPost {
 }
 
 impl Post {
-    pub fn new() -> DraftPost {
+    pub fn new_draft() -> DraftPost {
         DraftPost {
             content: String::new(),
         }

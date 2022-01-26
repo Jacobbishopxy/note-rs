@@ -46,9 +46,9 @@ mod tests_oe {
         foo.add(10);
         foo.add(20);
 
-        assert_eq!(foo.average(), 15 as f64);
+        assert_eq!(foo.average(), 15f64);
 
         foo.remove();
-        assert_eq!(foo.average(), 10 as f64);
+        assert_eq!(foo.average(), 10f64);
     }
 }
