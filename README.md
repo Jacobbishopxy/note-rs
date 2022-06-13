@@ -35,16 +35,20 @@ Other useful references:
 ## Project Structure
 
 ```null
-├── doc
-│   ├── Asynchronous Programming in Rust
-│   ├── Learn Rust With Entirely Too Many Linked Lists
-│   ├── Rust By Example
-│   ├── Rust Design Patterns
-│   ├── The Rust Programming Language
-│   ├── The Rust Reference
-│   └── The Rustonomicon
 │
-├── resources
+├── Asynchronous Programming in Rust
+│
+├── Learn Rust With Entirely Too Many Linked Lists
+│
+├── Rust By Example
+│
+├── Rust Design Patterns
+│
+├── The Rust Programming Language
+│
+├── The Rust Reference
+│
+├── The Rustonomicon
 │
 ├── sample_code
 │   ├── tmll
